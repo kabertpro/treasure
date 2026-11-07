@@ -1,0 +1,9 @@
+KABERT TREASURE - CARPETA DE AUDIO
+
+Aquí puedes colocar tus 4 archivos MP3:
+1. menu.mp3  -> Música del Menú Principal y Creador de Personajes
+2. juego1.mp3 -> Música de los Mundos 1 y 2
+3. juego2.mp3 -> Música de los Mundos 3 y 4
+4. final.mp3  -> Música del Mundo 5 y Victoria
+
+Si no se colocan estos archivos, el juego continuará normalmente generando música y efectos retro mediante el sintetizador Web Audio API incorporado.

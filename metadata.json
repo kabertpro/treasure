@@ -1,0 +1,6 @@
+{
+  "name": "KABERT TREASURE - Videojuego 3D Voxel",
+  "description": "Videojuego 3D de aventura, exploración, combate y desafíos educativos en un universo voxel por KABERT LAB by LMKE.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

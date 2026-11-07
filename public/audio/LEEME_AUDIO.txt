@@ -1,0 +1,54 @@
+========================================================================
+   KABERT TREASURE - GUÍA DE CARGA DE ARCHIVOS DE MÚSICA MP3
+   Desarrollador: KABERT LAB by LMKE
+   Autor: Luis Miguel Kapa Escobar | WhatsApp: +591 65596602
+========================================================================
+
+Esta carpeta (/public/audio/) y la carpeta (/public/music/) están destinadas
+para que coloques tus 8 pistas musicales en formato MP3:
+
+1. menu.mp3
+   - Música del Menú Principal, Creador de Personajes y Pantalla de Inicio.
+   - Recomendado: Estilo chiptune/retro alegre, envolvente y aventurero.
+
+2. cancion1.mp3
+   - Música del MUNDO 1: ISLA DEL TESORO.
+   - Ambiente: Tropical, costas, brisa marina y exploración voxel.
+
+3. cancion2.mp3
+   - Música del MUNDO 2: CIUDAD PERDIDA.
+   - Ambiente: Ruinas antiguas, templos dorados y misterio arqueológico.
+
+4. cancion3.mp3
+   - Música del MUNDO 3: MONTAÑAS DE HIELO.
+   - Ambiente: Viento gélido, cavernas congeladas y cumbres nevadas.
+
+5. cancion4.mp3
+   - Música del MUNDO 4: FORTALEZA DE FUEGO.
+   - Ambiente: Volcanes, ríos de lava, mazmorras y tensión ardiente.
+
+6. cancion5.mp3
+   - Música del MUNDO 5: REINO DEL CIELO.
+   - Ambiente: Islas flotantes celestiales, templos etéreos y altura mística.
+
+7. cancion6.mp3
+   - Música de COMBATE CONTRA JEFES FINALES (Kraken, Golem, Dragón, Titán, Señor del Vórtice).
+   - Ambiente: Épico, percusión intensa, batalla por la conquista.
+
+8. final.mp3
+   - Música de VICTORIA FINAL y CRÉDITOS DEL JUEGO.
+   - Ambiente: Triunfal, celebración de conquista y tarjeta de honor.
+
+------------------------------------------------------------------------
+SOPORTE Y CARGA EN VIVO:
+------------------------------------------------------------------------
+- Puedes colocar los archivos directamente aquí en 'public/audio/' o 'public/music/'.
+- TAMBIÉN puedes cargarlos EN VIVO desde el propio videojuego utilizando el
+  botón "ESTACIÓN DE MÚSICA (MP3)" en el menú o pausa, permitiendo arrastrar y
+  soltar canciones desde tu PC o teléfono móvil.
+- Si no colocas algún archivo .mp3, el sintetizador procedimental Web Audio
+  reproducirá una melodía retro 8-bit voxel automáticamente para que nunca
+  falte música.
+- TODOS los efectos de sonido (disparos, monedas, impactos, saltos, motores)
+  se mantienen 100% activos y sintetizados en tiempo real.
+========================================================================

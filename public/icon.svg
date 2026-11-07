@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+    <linearGradient id="diamond" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded voxel plaque -->
+  <rect width="512" height="512" rx="64" fill="url(#bg)"/>
+  <rect x="24" y="24" width="464" height="464" rx="48" fill="none" stroke="#f59e0b" stroke-width="12" stroke-dasharray="24 12"/>
+
+  <!-- Voxel Island / Ground -->
+  <rect x="96" y="380" width="320" height="40" fill="#15803d"/>
+  <rect x="96" y="420" width="320" height="40" fill="#78350f"/>
+  <rect x="116" y="390" width="280" height="10" fill="#22c55e"/>
+
+  <!-- Voxel Treasure Chest Body -->
+  <rect x="140" y="230" width="232" height="150" fill="#92400e" stroke="#451a03" stroke-width="8"/>
+  <rect x="156" y="246" width="200" height="118" fill="#b45309"/>
+
+  <!-- Chest Lid -->
+  <rect x="128" y="160" width="256" height="74" fill="#b45309" stroke="#451a03" stroke-width="8"/>
+  <rect x="144" y="172" width="224" height="50" fill="#d97706"/>
+
+  <!-- Gold bands and voxel corners -->
+  <rect x="140" y="160" width="28" height="220" fill="url(#gold)"/>
+  <rect x="344" y="160" width="28" height="220" fill="url(#gold)"/>
+  <rect x="128" y="222" width="256" height="18" fill="url(#gold)"/>
+
+  <!-- Lock Clasp (Voxel Golden Plate) -->
+  <rect x="232" y="212" width="48" height="50" fill="url(#gold)" stroke="#78350f" stroke-width="4"/>
+  <circle cx="256" cy="232" r="7" fill="#0f172a"/>
+  <rect x="253" y="232" width="6" height="14" fill="#0f172a"/>
+
+  <!-- Floating Glowing Voxel Diamond Above -->
+  <g transform="translate(256, 110)">
+    <!-- Glow -->
+    <circle cx="0" cy="0" r="54" fill="#38bdf8" opacity="0.35"/>
+    <!-- Diamond polygons -->
+    <polygon points="0,-48 38,-12 0,48 -38,-12" fill="url(#diamond)" stroke="#bae6fd" stroke-width="4"/>
+    <polygon points="0,-48 38,-12 0,0 -38,-12" fill="#bae6fd" opacity="0.8"/>
+    <polygon points="0,0 38,-12 0,48" fill="#0284c7" opacity="0.9"/>
+    <polygon points="-38,-12 0,0 0,48" fill="#0369a1" opacity="0.9"/>
+  </g>
+
+  <!-- Sparkling stars -->
+  <polygon points="120,100 126,114 140,120 126,126 120,140 114,126 100,120 114,114" fill="#fef08a"/>
+  <polygon points="390,90 394,100 405,104 394,108 390,119 386,108 375,104 386,100" fill="#fef08a"/>
+</svg>
